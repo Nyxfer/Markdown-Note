@@ -11,13 +11,21 @@
 
 - `_` to subscript
 
-- use`{ }` to represent a union
+  - use`{ }` to represent a union
 
   ​	e.g.   $$x = a_{1}^n + a_{2}^n + a_{3}^n$$
 
-- use `\sideset` to have scripts both sides 
+  - use `\sideset` to have scripts both sides 
 
   ​	e.g.  $$\sideset{^1_2}{^3_4}A$$
+
+- use `\overline{ }` to $\overline{A}$
+
+- use `\underline{ }` to $\underline{A}$
+
+- use `\widehat{ }` to $ \widehat{abc} $
+
+- use `\widetilde{ }` to $\widetilde{abc}$
 
 ### Brackets
 
