@@ -37,19 +37,97 @@
 
 ### Greek Letter
 
-Code|Capital Letter|Code|Lower Case
+|    Code    | Capital Letter |   Code   | Lower Case |
+| :--------: | :------------: | :------: | :--------: |
+|    `A`     |       A        | `\alpha` |  $\alpha$  |
+|    `B`     |       B        | `\beta`  |  $\beta$   |
+|  `\Gamma`  |    $\Gamma$    | `\gamma` |  $\gamma$  |
+|  `\Delta`  |    $\Delta$    |          |            |
+|    `E`     |       E        |          |            |
+|    `Z`     |       Z        |          |            |
+|    `H`     |       H        |          |            |
+|  `\Theta`  |    $\Theta$    |          |            |
+|    `I`     |       I        |          |            |
+|    `K`     |       K        |          |            |
+| `\Lambda`  |   $\Lambda$    |          |            |
+|    `M`     |       M        |          |            |
+|    `N`     |       N        |          |            |
+|   `\Xi`    |     $\Xi$      |          |            |
+|    `O`     |       O        |          |            |
+|   `\Pi`    |     $\Pi$      |          |            |
+|  `\Sigma`  |    $\Sigma$    |          |            |
+|    `T`     |       T        |          |            |
+| `\Upsilon` |   $\Upsilon$   |          |            |
+|   `\Phi`   |     $\Phi$     |          |            |
+|    `X`     |       X        |          |            |
+|   `\Psi`   |     $\Psi$     |          |            |
+|  `\Omega`  |    $\Omega$    |          |            |
 
-:-------:|:------------------:|:-------:|:----------------:
+### Relational Operators
 
-`A` | A | `\alpha` | $\alpha$ 
+|    Symbol    |     Code     |
+| :----------: | :----------: |
+|    $\pm$     |    `\pm`     |
+|   $\times$   |   `\times`   |
+|    $\div$    |    `\div`    |
+|    $\mid$    |    `\mid`    |
+|   $\nmid$    |   `\nmid`    |
+|   $\cdot$    |   `\cdot`    |
+|   $\circ$    |   `\circ`    |
+|    $\ast$    |    `\ast`    |
+|  $\bigodot$  |  `\bigodot`  |
+| $\bigotimes$ | `\bigotimes` |
+| $\bigoplus$  | `\bigoplus`  |
+|    $\leq$    |    `\leq`    |
+|    $\geq$    |    `\geq`    |
+|    $\neq$    |    `\neq`    |
+|  $\approx$   |  `\approx`   |
+|    $\sum$    |    `\sum`    |
+|   $\prod$    |   `\prod`    |
+|  $\coprod$   |  `\coprod`   |
 
-`B` | B | `\beta` | $\beta$
+### Set Operators
 
+|   Symbol    |    Code     |
+| :---------: | :---------: |
+| $\emptyset$ | `\emptyset` |
+|    $\in$    |    `\in`    |
+|  $\notin$   |  `\notin`   |
+|  $\subset$  |  `\subset`  |
+|  $\supset$  |  `\supset`  |
+| $\subseteq$ | `\subseteq` |
+| $\supseteq$ | `\supseteq` |
+|  $\bigcap$  |  `\bigcap`  |
+|  $\bigcup$  |  `\bigcup`  |
+|  $\bigvee$  |  `\bigvee`  |
+| $\bigwedge$ | `\bigwedge` |
+| $\biguplus$ | `\biguplus` |
+| $\bigsqcup$ | `\bigsqcup` |
 
+### Trigonometric Operators
 
+|  Symbol  |   Code   |
+| :------: | :------: |
+|  $\bot$  |  `\bot`  |
+| $\angle$ | `\angle` |
+|  $\sin$  |  `\sin`  |
+|  $\cos$  |  `\cos`  |
+|  $\tan$  |  `\tan`  |
+|  $\cot$  |  `\cot`  |
+|  $\sec$  |  `\sec`  |
+|  $\csc$  |  `\csc`  |
 
+### Calculus Operators
 
-
-
-
+|    Symbol    |     Code     |
+| :----------: | :----------: |
+|   $\prime$   |   `\prime`   |
+|    $\int$    |    `\int`    |
+|   $\iint$    |   `\iint`    |
+|   $\iiint$   |   `\iiint`   |
+|   $\oint$    |   `\oint`    |
+|    $\lim$    |    `\lim`    |
+|   $\infty$   |   `\infty`   |
+|   $\nabla$   |   `\nabla`   |
+| $\mathrm{d}$ | `\mathrm{d}` |
 
