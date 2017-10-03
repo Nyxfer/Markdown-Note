@@ -13,19 +13,23 @@
 
   - use`{ }` to represent a union
 
-  ​	e.g.   $$x = a_{1}^n + a_{2}^n + a_{3}^n$$
+    ​e.g.   $$x = a_{1}^n + a_{2}^n + a_{3}^n$$
 
   - use `\sideset` to have scripts both sides 
 
-  ​	e.g.  $$\sideset{^1_2}{^3_4}A$$
+    ​e.g.  $$\sideset{^1_2}{^3_4}A$$
 
 - use `\overline{ }` to $\overline{A}$
 
 - use `\underline{ }` to $\underline{A}$
 
+- use `\hat{ }` to $\hat{y}$, use `\check{ }` to $\check{y}$, and use `\breve{ }` to $\breve{y}$.
+
 - use `\widehat{ }` to $ \widehat{abc} $
 
 - use `\widetilde{ }` to $\widetilde{abc}$
+
+- use `\overbrace{ }^{ }` to  $\overbrace{a + b + c}^{3}$
 
 ### Brackets
 
@@ -43,33 +47,49 @@
 
   ​	e.g. $$ \sqrt[3]{5 - x}$$
 
+### Vector
+
+- use `\vec{ }`
+
+  ​	e.g. $\vec{a}$
+
+  ​
+
 ### Greek Letter
 
-|    Code    | Capital Letter |   Code   | Lower Case |
-| :--------: | :------------: | :------: | :--------: |
-|    `A`     |       A        | `\alpha` |  $\alpha$  |
-|    `B`     |       B        | `\beta`  |  $\beta$   |
-|  `\Gamma`  |    $\Gamma$    | `\gamma` |  $\gamma$  |
-|  `\Delta`  |    $\Delta$    |          |            |
-|    `E`     |       E        |          |            |
-|    `Z`     |       Z        |          |            |
-|    `H`     |       H        |          |            |
-|  `\Theta`  |    $\Theta$    |          |            |
-|    `I`     |       I        |          |            |
-|    `K`     |       K        |          |            |
-| `\Lambda`  |   $\Lambda$    |          |            |
-|    `M`     |       M        |          |            |
-|    `N`     |       N        |          |            |
-|   `\Xi`    |     $\Xi$      |          |            |
-|    `O`     |       O        |          |            |
-|   `\Pi`    |     $\Pi$      |          |            |
-|  `\Sigma`  |    $\Sigma$    |          |            |
-|    `T`     |       T        |          |            |
-| `\Upsilon` |   $\Upsilon$   |          |            |
-|   `\Phi`   |     $\Phi$     |          |            |
-|    `X`     |       X        |          |            |
-|   `\Psi`   |     $\Psi$     |          |            |
-|  `\Omega`  |    $\Omega$    |          |            |
+|    Code    | Capital Letter |    Code    | Lower Case |
+| :--------: | :------------: | :--------: | :--------: |
+|    `A`     |       A        |  `\alpha`  |  $\alpha$  |
+|    `B`     |       B        |  `\beta`   |  $\beta$   |
+|  `\Gamma`  |    $\Gamma$    |  `\gamma`  |  $\gamma$  |
+|  `\Delta`  |    $\Delta$    |  `\delta`  |  $\delta$  |
+|    `E`     |       E        | `\epsilon` | $\epsilon$ |
+|    `Z`     |       Z        |  `\zeta`   |  $\zeta$   |
+|    `H`     |       H        |   `\eta`   |   $\eta$   |
+|  `\Theta`  |    $\Theta$    |  `\theta`  |  $\theta$  |
+|    `I`     |       I        |  `\iota`   |  $\iota$   |
+|    `K`     |       K        |  `\kappa`  |  $\kappa$  |
+| `\Lambda`  |   $\Lambda$    | `\lambda`  | $\lambda$  |
+|    `M`     |       M        |   `\mu`    |   $\mu$    |
+|    `N`     |       N        |   `\nu`    |   $\nu$    |
+|   `\Xi`    |     $\Xi$      |   `\xi`    |   $\xi$    |
+|    `O`     |       O        | `\omicron` | $\omicron$ |
+|   `\Pi`    |     $\Pi$      |   `\pi`    |   $\pi$    |
+|  `\Sigma`  |    $\Sigma$    |   `\rho`   |   $\rho$   |
+|    `T`     |       T        |  `\sigma`  |  $\sigma$  |
+| `\Upsilon` |   $\Upsilon$   | `\upsilon` | $\upsilon$ |
+|   `\Phi`   |     $\Phi$     |   `\phi`   |   $\phi$   |
+|    `X`     |       X        |   `\chi`   |   $\chi$   |
+|   `\Psi`   |     $\Psi$     |   `\psi`   |   $\psi$   |
+|  `\Omega`  |    $\Omega$    |  `\omega`  |  $\omega$  |
+
+### Special Alphabet
+
+|  Symbol  |   Code   |
+| :------: | :------: |
+| $\aleph$ | `\aleph` |
+
+
 
 ### Relational Operators
 
@@ -90,8 +110,8 @@
 |    $\geq$    |    `\geq`    |
 |    $\neq$    |    `\neq`    |
 |  $\approx$   |  `\approx`   |
-|    $\sum$    |    `\sum`    |
-|   $\prod$    |   `\prod`    |
+|    $\sum$    |  `\sum{ }`   |
+|   $\prod$    |  `\prod{ }`  |
 |  $\coprod$   |  `\coprod`   |
 
 ### Set Operators
@@ -99,6 +119,7 @@
 |   Symbol    |    Code     |
 | :---------: | :---------: |
 | $\emptyset$ | `\emptyset` |
+|  $\wp(\ )$  |  `\wp( )`   |
 |    $\in$    |    `\in`    |
 |  $\notin$   |  `\notin`   |
 |  $\subset$  |  `\subset`  |
@@ -112,6 +133,20 @@
 | $\biguplus$ | `\biguplus` |
 | $\bigsqcup$ | `\bigsqcup` |
 
+### Logical Operators
+
+|    Symbol     |     Code      |
+| :-----------: | :-----------: |
+|  $\because$   |  `\because`   |
+| $\therefore$  | `\therefore`  |
+|   $\forall$   |   `\forall`   |
+|   $\exists$   |   `\exists`   |
+|    $\not=$    |    `\not=`    |
+|    $\not>$    |    `\not>`    |
+| $\not\subset$ | `\not\subset` |
+
+
+
 ### Trigonometric Operators
 
 |  Symbol  |   Code   |
@@ -124,18 +159,36 @@
 |  $\cot$  |  `\cot`  |
 |  $\sec$  |  `\sec`  |
 |  $\csc$  |  `\csc`  |
+| $^\circ$ | `^\circ` |
 
 ### Calculus Operators
 
-|    Symbol    |     Code     |
-| :----------: | :----------: |
-|   $\prime$   |   `\prime`   |
-|    $\int$    |    `\int`    |
-|   $\iint$    |   `\iint`    |
-|   $\iiint$   |   `\iiint`   |
-|   $\oint$    |   `\oint`    |
-|    $\lim$    |    `\lim`    |
-|   $\infty$   |   `\infty`   |
-|   $\nabla$   |   `\nabla`   |
-| $\mathrm{d}$ | `\mathrm{d}` |
+|    Symbol    |           Code           |
+| :----------: | :----------------------: |
+|   $\prime$   |         `\prime`         |
+|    $\int$    |          `\int`          |
+|   $\iint$    |         `\iint`          |
+|   $\iiint$   |         `\iiint`         |
+|   $\oint$    |         `\oint`          |
+|    $\lim$    |          `\lim`          |
+|   $\infty$   |         `\infty`         |
+|   $\nabla$   |         `\nabla`         |
+| $\mathrm{d}$ | `\mathrm{d}`or `{\rm d}` |
+
+### Arrow Symbols
+
+|      Symbol       |       Code        |
+| :---------------: | :---------------: |
+|    $\uparrow$     |    `\uparrow`     |
+|   $\downarrow$    |   `\downarrow`    |
+|    $\Uparrow$     |    `\Uparrow`     |
+|   $\Downarrow$    |   `\Downarrow`    |
+|   $\rightarrow$   |   `\rightarrow`   |
+|   $\leftarrow$    |   `\leftarrow`    |
+|   $\Rightarrow$   |   `\Rightarrow`   |
+|   $\Leftarrow$    |   `\Leftarrow`    |
+| $\longrightarrow$ | `\longrightarrow` |
+| $\longleftarrow$  | `\longleftarrow`  |
+| $\Longrightarrow$ | `\Longrightarrow` |
+| $\Longleftarrow$  | `\Longleftarrow`  |
 
